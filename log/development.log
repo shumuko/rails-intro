@@ -184,3 +184,305 @@ Served asset /topics.js - 304 Not Modified (0ms)
 
 Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2013-03-18 16:29:04 -0400
 Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2013-03-18 16:35:13 -0400
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.1ms)[0m  SELECT "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered topics/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-18 16:35:13 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2013-03-18 16:35:13 -0400
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2013-03-18 16:35:13 -0400
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/topics" for 127.0.0.1 at 2013-03-18 16:35:15 -0400
+Processing by TopicsController#index as HTML
+  [1m[36mTopic Load (0.1ms)[0m  [1mSELECT "topics".* FROM "topics" [0m
+  Rendered topics/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2013-03-18 16:35:15 -0400
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2013-03-18 16:35:15 -0400
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-18 16:35:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1/edit" for 127.0.0.1 at 2013-03-18 16:35:17 -0400
+Processing by TopicsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.1ms)[0m  SELECT "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered topics/_form.html.erb (1.9ms)
+  Rendered topics/edit.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2013-03-18 16:35:17 -0400
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-18 16:35:17 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2013-03-18 16:35:17 -0400
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1" for 127.0.0.1 at 2013-03-18 16:35:43 -0400
+Processing by TopicsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.1ms)[0m  [1mSELECT "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered topics/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2013-03-18 16:35:43 -0400
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2013-03-18 16:35:43 -0400
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-18 16:35:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1/edit" for 127.0.0.1 at 2013-03-18 16:35:45 -0400
+Processing by TopicsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.1ms)[0m  SELECT "topics".* FROM "topics" WHERE "topics"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered topics/_form.html.erb (1.8ms)
+  Rendered topics/edit.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2013-03-18 16:35:45 -0400
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-18 16:35:45 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2013-03-18 16:35:45 -0400
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/new" for 127.0.0.1 at 2013-03-18 16:40:12 -0400
+Processing by TopicsController#new as HTML
+  Rendered topics/_form.html.erb (1.5ms)
+  Rendered topics/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2013-03-18 16:40:12 -0400
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-18 16:40:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2013-03-18 16:40:12 -0400
+Served asset /topics.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateTopics (20130318202044)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("topics")
+Connecting to database specified by database.yml
+
+
+Started GET "/users" for 127.0.0.1 at 2013-03-18 16:56:48 -0400
+Connecting to database specified by database.yml
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 49ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/users_controller.rb:5:in `index'
+
+
+  Rendered /Users/fkou/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/fkou/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/fkou/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.3ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateTopics (20130318202044)
+Migrating to CreateUsers (20130318205208)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130318205208')[0m
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("topics")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+
+
+Started GET "/users" for 127.0.0.1 at 2013-03-18 17:00:33 -0400
+Connecting to database specified by database.yml
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (1.8ms)
+Compiled users.css  (35ms)  (pid 98561)
+Compiled application.css  (41ms)  (pid 98561)
+Compiled users.js  (289ms)  (pid 98561)
+Compiled application.js  (308ms)  (pid 98561)
+Completed 200 OK in 490ms (Views: 477.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:33 -0400
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:33 -0400
+Served asset /users.js - 200 OK (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:33 -0400
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:33 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:34 -0400
+Served asset /topics.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:34 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:34 -0400
+Served asset /topics.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:34 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-03-18 17:00:36 -0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (87.9ms)
+  Rendered users/new.html.erb within layouts/application (99.0ms)
+Completed 200 OK in 107ms (Views: 103.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:36 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:36 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:36 -0400
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:36 -0400
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:36 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-03-18 17:00:40 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n9J2L5t5aDsfxEggtB0jTVhsZzSoQ2M7KUxVa9Rw42E=", "user"=>{"name"=>"martha"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (106.0ms)[0m  [1mINSERT INTO "users" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Mon, 18 Mar 2013 21:00:40 UTC +00:00], ["name", "martha"], ["updated_at", Mon, 18 Mar 2013 21:00:40 UTC +00:00]]
+  [1m[35m (2.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 112ms (ActiveRecord: 108.3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2013-03-18 17:00:40 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:40 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:40 -0400
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:40 -0400
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-03-18 17:00:43 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:43 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2013-03-18 17:00:43 -0400
+Served asset /topics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:43 -0400
+Served asset /topics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-18 17:00:43 -0400
+Served asset /application.js - 304 Not Modified (0ms)

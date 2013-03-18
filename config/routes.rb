@@ -1,4 +1,6 @@
 RailsIntroPractice::Application.routes.draw do
+  resources :users
+
   resources :topics
 
   # The priority is based upon order of creation:
