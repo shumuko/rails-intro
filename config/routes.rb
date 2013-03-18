@@ -1,4 +1,6 @@
 RailsIntroPractice::Application.routes.draw do
+  resources :votes
+
   resources :users
 
   resources :topics
