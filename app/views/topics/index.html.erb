@@ -10,7 +10,7 @@
 
 <% @topics.each do |topic| %>
   <tr>
-    <td><%= topic.title %></td>
+    <td><%= link_to topic.title, topic %></td>
     <td><%= pluralize(topic.votes.length, "vote") %></td>
     <td><%= button_to '+1', votes_path(topic_id: topic.id), method: :post %></td>
     <td><%= link_to 'Show', topic %></td>
